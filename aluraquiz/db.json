@@ -7,7 +7,7 @@
         "image": "https://i.makeagif.com/media/8-31-2017/xb25QR.gif",
         "title": "Quando foi conquistado o primeiro mundial em Tóquio?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
           "1993",
           "1992",
@@ -16,13 +16,13 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://www.futebolnaveia.com.br/wp-content/uploads/2020/09/unnamed.jpg",
+        "title": "Qual apelido do inventor do gol de bicicleta?",
+        "description": "Essa é dos bem antigos",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Diamante Negro",
+           "Homem Elástico"
         ]
       }
     ],
