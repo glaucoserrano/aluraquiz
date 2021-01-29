@@ -8,6 +8,7 @@ import QuizContainer from '../src/components/QuizContainer';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
+import Link from '../src/components/Link';
 import Button from '../src/components/Botton';
 
 // const BackgroundImage = styled.div`
@@ -54,8 +55,24 @@ export default function Home() {
         <Widget>
           <Widget.Content>
             <h1>Quizes da Galera</h1>
+            <ul>
+              {db.external.map((linkExterno) => {
+                const [projectName, githubUser] = linkExterno
+                  .replace(/\//g, '')
+                  .replace('https:', '')
+                  .replace('.vercel.app', '')
+                  .split('.');
 
-            <p>Teste seu conhecimento sobre o mais querido.</p>
+                return (
+                  <li key={linkExterno}>
+                    <Widget.Topic as={Link} href={`/quiz/${projectName}___${githubUser}`}>
+                      {`${projectName}/${githubUser}` }
+                    </Widget.Topic>
+                  </li>
+                );
+              })}
+
+            </ul>
           </Widget.Content>
         </Widget>
         <Footer />

@@ -27,7 +27,8 @@
       }
     ],
     "external": [
-        ""
+        "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
+        "https://alura-imersao-react-next.rafaelyano.vercel.app/"
       ],
       "theme": {
         "colors": {
